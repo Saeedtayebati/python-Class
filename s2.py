@@ -1,7 +1,8 @@
-a=int(input('Addad 1'))
+a=input()
+b=input()
+c=input()
 
-
-if  a >=100 or a<=10 :
+if  a+b>c and a+c>b and b+c>a :
    print("ok")
 
 else :
